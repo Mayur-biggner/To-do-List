@@ -1,0 +1,92 @@
+body{
+padding: 0;
+margin: 0;
+}
+.container{
+    /* width: 400px; */
+    margin: auto;
+    
+}
+.container i{
+    position: absolute;
+    right: 30%;
+    
+}
+
+#form{
+    
+    background-color:#EAC7C7;
+    margin: 50px auto; 
+    width:500px;
+    height: 500px;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #ECE8DD;
+    
+}
+h1{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+#To-do{
+    padding: 12px;
+    border: #ECE8DD 4px solid;
+    border-radius: 10px;
+    width: 70%;
+}
+.btn{
+    padding: 12px;
+    border: #ECE8DD 4px solid;
+    border-radius: 10px;
+    width: 70px;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+}
+input:focus-visible {
+    outline: 3px solid rgb(193, 97, 116);
+    border-radius: 10px;
+}
+.btn:active{
+    outline: 3px solid rgb(193, 97, 116);
+    border-radius: 10px;
+}
+li{
+    background-color: white;
+    border-radius: 5px;
+    /* margin: 8px 8px; */
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    width: 28.6rem;
+    position: relative;
+    right: 27px;
+    margin: 10px;
+}
+.list_span{
+    padding-left: 8px;
+    font: italic small-caps bold 16px/2 cursive;
+}
+#btn_edit{
+    position:absolute;
+    right: 45px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    color: green;
+    padding: 1.5px ;
+    
+}
+#btn_delete{
+    cursor: pointer;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    color: red;
+    position: absolute;
+    right: 15px;
+    padding: 1.5px;
+}
+
